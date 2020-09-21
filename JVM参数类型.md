@@ -85,13 +85,13 @@
 
   - Case
 
+    ![img](http://img.tomato530.com/WechatIMG3.png)
+
     - java -XX:+PrintFlagsFinal -XX:MetaspaceSize = 512m T (运行的Java类)
 
       运行Java命令的同时打印参数
 
     - java -XX:+PrintFlagsFinal -Xss256k T
-
-  ![img](http://img.tomato530.com/WechatIMG3.png)
 
 - -XX:+PrintCommandLineFlags
 
