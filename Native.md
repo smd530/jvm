@@ -4,11 +4,9 @@
 
 
 
-类里面是否能有方法的声明没有方法的实现
+问：类里面是否能有方法的声明没有方法的实现
 
-可以 native方法就可以
-
-private native void start0();
+答：可以 native方法就可以 private native void start0();
 
 ***
 
