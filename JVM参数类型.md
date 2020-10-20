@@ -61,6 +61,8 @@
 
   - **jps -l** 列出所有的Java进程
 
+- jstack 进程号 查堆栈信息 可以排查死锁
+
 - 盘点JVM初始参数值
 
   - -XX:+PrintFlagsInitial 盘点JVM初始参数
