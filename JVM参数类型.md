@@ -63,6 +63,13 @@
 
 - jstack 进程号 查堆栈信息 可以排查死锁
 
+- jmap Java Memory Map (jmap [option] vmid)  
+
+  - jmap -heap pid 查看堆栈信息
+  - jmap -dump 生成快照文件
+
+- jconsole 内置java性能分析器
+
 - 盘点JVM初始参数值
 
   - -XX:+PrintFlagsInitial 盘点JVM初始参数
